@@ -6,14 +6,12 @@ on_game_start = {
 
 qk_change_government = {
 	effect = {
-		# Scope to the title `e_kara_khitiai` and run the effect there
-		title = e_kara_khitiai {
+		# # Scope to the title `e_kara_khitiai` and run the effect there
+		title:e_kara_khitai = {
 			if = {
 				limit = {
 					# Run only on the exact game date 1178.1.1
-					current_date = "1178.1.1"
-					# Only change if it does NOT already have the target government
-					NOT = { has_government = steppe_admin_government }
+					current_date >= "1124.1.1"
 				}
 				change_government = steppe_admin_government
 			}
