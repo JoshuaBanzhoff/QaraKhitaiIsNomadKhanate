@@ -1,0 +1,31 @@
+on_game_start = {
+	on_actions = {
+		kk_change_government
+	}
+}
+
+on_game_loaded = {
+	on_actions = {
+		kk_change_government
+	}
+}
+
+kk_change_government = {
+	effect = {
+		# character:188912 = {
+		# 	change_government = steppe_admin_government
+		# }
+
+		# # Scope to the title `e_kara_khitiai` and run the effect there
+		title = e_kara_khitai {
+			if = {
+				limit = {
+					# Run only on the exact game date 1178.1.1
+					current_date >= "1124.1.1"
+				}
+				change_government = steppe_admin_government
+				log = "QK: changed e_kara_khitai to steppe_admin_government"
+			}
+		}
+	}
+}
