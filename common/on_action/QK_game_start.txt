@@ -1,20 +1,13 @@
 on_game_start = {
 	on_actions = {
-		qk_change_government
+		kk_change_government
 	}
 }
 
-qk_change_government = {
+kk_change_government = {
 	effect = {
-		# # Scope to the title `e_kara_khitiai` and run the effect there
-		title:e_kara_khitai = {
-			if = {
-				limit = {
-					# Run only on the exact game date 1178.1.1
-					current_date >= "1124.1.1"
-				}
-				change_government = steppe_admin_government
-			}
+		character:188912 = {
+			change_government = steppe_admin_government
 		}
 	}
 }
