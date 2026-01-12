@@ -17,15 +17,15 @@ kk_change_government = {
 		# }
 
 		# # Scope to the title `e_kara_khitiai` and run the effect there
+		# Be sure to change the lower level governments held by the ruler to steppe_admin_government as well
+
 		title = e_kara_khitai {
-			if = {
-				limit = {
-					# Run only on the exact game date 1178.1.1
-					current_date >= "1124.1.1"
-				}
-				change_government = steppe_admin_government
-				log = "QK: changed e_kara_khitai to steppe_admin_government"
-			}
+			change_government = steppe_admin_government
+			log = "QK: changed e_kara_khitai to steppe_admin_government"
+		}
+		title = k_zhettsu {
+			change_government = steppe_admin_government
+			log = "QK: changed k_zhettsu to steppe_admin_government"
 		}
 	}
 }
