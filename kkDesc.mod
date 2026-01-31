@@ -5,5 +5,5 @@ tags={
 	"Gameplay"
 }
 name="Qara Khitai is Nomadic Khanate in 1178"
-supported_version="1.18.2"
+supported_version="1.18.3"
 <!-- path= -->
