@@ -27,5 +27,33 @@ kk_change_government = {
 			change_government = steppe_admin_government
 			log = "QK: changed k_zhettsu to steppe_admin_government"
 		}
+		title = d_zhetysu {
+			change_government = steppe_admin_government
+			log = "QK: changed d_zhetysu to steppe_admin_government"
+		}
+		title = c_qayliq {
+			change_government = steppe_admin_government
+			log = "QK: changed c_qayliq to steppe_admin_government"
+		}
+		title = c_almaty {
+			change_government = steppe_admin_government
+			log = "QK: changed c_almaty to steppe_admin_government"
+		}
+		title = c_lliq {
+			change_government = steppe_admin_government
+			log = "QK: changed c_lliq to steppe_admin_government"
+		}
+		title = c_kash {
+			change_government = steppe_admin_government
+			log = "QK: changed c_kash to steppe_admin_government"
+		}
+		title = c_lepsink {
+			change_government = steppe_admin_government
+			log = "QK: changed c_lepsink to steppe_admin_government"
+		}
+		title = c_kokpekty {
+			change_government = steppe_admin_government
+			log = "QK: changed c_kokpekty to steppe_admin_government"
+		}
 	}
 }
